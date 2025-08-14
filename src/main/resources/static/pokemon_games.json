@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Pokemon Stadium",
+    "imagePath": "pokemon_stadium.jpg",
+    "starterPokemonNames": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokemon Stadium 2",
+    "imagePath": "pokemon_stadium_2.jpg",
+    "starterPokemonNames": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Rubí & Zafiro",
+    "imagePath": "pokemon_rubi_zafiro.jpg",
+    "starterPokemonNames": [
+      "Treecko",
+      "Torchic",
+      "Mudkip"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Pinball: Rubí y Zafiro",
+    "imagePath": "pokemon_pinball_rubi_zafiro.jpg",
+    "starterPokemonNames": [
+      "Treecko",
+      "Torchic",
+      "Mudkip"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Rojo Fuego",
+    "imagePath": "pokemon_rojo_fuego.jpg",
+    "starterPokemonNames": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Verde Hoja",
+    "imagePath": "pokemon_verde_hoja.jpg",
+    "starterPokemonNames": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Esmeralda",
+    "imagePath": "pokemon_esmeralda.jpg",
+    "starterPokemonNames": [
+      "Treecko",
+      "Torchic",
+      "Mudkip"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Diamante",
+    "imagePath": "pokemon_diamante.jpg",
+    "starterPokemonNames": [
+      "Turtwig",
+      "Chimchar",
+      "Piplup"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  },
+  {
+    "name": "Pokémon Perla",
+    "imagePath": "pokemon_perla.jpg",
+    "starterPokemonNames": [
+      "Turtwig",
+      "Chimchar",
+      "Piplup"
+    ],
+    "starterPokemons": [],
+    "regionGameVersion": "EU"
+  }
+]
