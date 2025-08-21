@@ -1,6 +1,6 @@
 package com.pokemite.pokemite.controller;
 
-import com.pokemite.pokemite.http.request.RetrievePokemonByNamesRequest;
+import com.pokemite.pokemite.http.request.RetrievePokemonByNameRequest;
 import com.pokemite.pokemite.service.PokeApiFetchService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -27,15 +27,15 @@ public class PokeController {
 
     @Operation(
             summary = "Obtener información de Pokémons",
-            description = "Dado los nombres de pokemon obtenemos y retornamos su información de la pokeApi"
+            description = "Dado el nombre/los nobmres de pokemon´s obtenemos y retornamos su información de la pokeApi"
     )
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Información de Pokémon/s obtenida correctamente"),
             @ApiResponse(responseCode = "500", description = "Error al comunicarse con la API externa")
     })
     @GetMapping
-    public List<Pokemon> getPokemonByNames(@Valid @ModelAttribute RetrievePokemonByNamesRequest request) {
-        return pokeApiFetchService.retrievePokemonByNames(request.getPokemonNames());
+    public List<Pokemon> getPokemonByNames(@Valid @ModelAttribute RetrievePokemonByNameRequest request) {
+        return pokeApiFetchService.retrievePokemonByNames(request.getName());
     }
 
 }
